@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   post 'user/:name', to: 'user#create'
   put 'user/:name', to: 'user#save'
   delete 'user/:id', to: 'user#delete'
+
 end
